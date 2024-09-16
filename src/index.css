@@ -25,3 +25,15 @@ body{
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px; /* Less padding on small screens */
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    padding: 15px; /* Less padding inside the container */
+  }
+}
