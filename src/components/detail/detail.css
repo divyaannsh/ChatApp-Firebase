@@ -1,4 +1,115 @@
-.detail{
-    flex: 1;
-
+.detail {
+    padding: 20px;
+    background-color: #dddddd35;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd35;
+  }
+  
+  .user img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .user p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  
+  .option {
+    padding: 15px 0;
+    border-bottom: 1px solid #49242435;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .title img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  .photos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  
+  .photoitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .photodetail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .photodetail img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .photodetail span {
+    font-size: 14px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    align-self: center;
+    justify-content: space-between;
+  }
+  
+  button:hover {
+    background-color: #ff1c1c;
+    justify-content: space-between;
+    logout{
+        padding: 10px;
+        background-color: #ff1c1c;
+        f;
+      }
 }
+  
+  
