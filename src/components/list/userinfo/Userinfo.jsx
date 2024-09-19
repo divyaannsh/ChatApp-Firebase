@@ -1,6 +1,6 @@
 import React from 'react'
 import "./userinfo.css"
-import { useUserStore } from '../../../lib/useStore'
+import { useUserStore } from '../../../lib/userStore'
 const Userinfo = () => {
   const{currentUser} = useUserStore
 

@@ -1,16 +1,14 @@
-import React from 'react'
-import "./list.css"
-import Userinfo from './userinfo/Userinfo'
-import Chatlist from './chatlist/Chatlist'
+import './list.css'
+import UserInfo from './userinfo/Userinfo'
+import ChatList from './chatlist/Chatlist'
 
 const List = () => {
   return (
     <div className='list'>
-      
-      <Userinfo/>
-      <Chatlist/>
+      <UserInfo />
+      <ChatList />
     </div>
   )
 }
 
-export default List
+export default List;
